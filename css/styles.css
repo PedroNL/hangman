@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* border: 1px solid red; */
+  height: 100vh;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.title {
+  text-decoration-line: underline;
+}
+
+.button {
+  padding: 30px;
+
+}
+
+#word-container {
+  border: 1px solid green;
+  width: 400px;
+  height: 200px;
+  margin: 40px auto;
+}
+
+#word-box {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 50%;
+}
+
+
+/* .letter {
+  font-size: 1.5rem;
+  display: inline-block;
+  border-bottom: 2px solid red;
+  margin: 5px;
+}
+*/
+
+#game-finished {
+  font-size: 3rem;
+  
+}
+
+.hidden {
+  visibility: hidden;
+} 
+
+
+
+
+
+
+

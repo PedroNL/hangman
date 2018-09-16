@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js"></script>
+  <title>HANGMAN</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>
+      <span class="title">H</span>
+      <span class="title">A</span>
+      <span class="title">N</span>
+      <span class="title">G</span>
+      <span class="title">M</span>
+      <span class="title">A</span>
+      <span class="title">N</span>
+    </h1>
+    <p id="topic">GUESS THE CAR BRAND</p>
+    <div id="display-container">
+      <h2 id="hint">_ _ _ _ _</h2>
+      <input type="text" placeholder="Enter a letter:" id="userInput" maxlength="1" pattern="[a-z]">
+      <input type="button" value="Guess" id="button"/>
+      <input type="button" value="New Game" id="new-game"/>
+
+
+      <h2 id="usedLetters"></h2>
+      <p id="lives-container"></p>
+      <p id="game-finished"></p>
+      <img src="img/kulan.png" alt="" class="hidden" id="image">
+    </div>
+
+
+
+      <!-- <input type="button" value="Reset" onclick="reset()"/> -->
+
+
+    
+  
+  </div>
+<script>init();</script>
+</body>
+
+</html>
